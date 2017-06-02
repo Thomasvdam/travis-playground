@@ -8,6 +8,7 @@ script:
 - npm run dist
 deploy:
   provider: npm
+  email: "t.vandam@wearetriple.com"
   api_key:
     secure: w/OgWHiieZZVpcrIpGQsqideM0FJtRYWRG9FxWx2+62hZrblrqnDq7QHGLTnUzkoQgKCcpRItyN0TFtryx+ja0Op2BUMmRDRA4H4Z35+cEW4oG6vPKiVR9NAamg3KKmW8AKGmCwYaqh0OO0QzRJKwzGoVFoSRE+IKnBxf1R9xOcSDfxcporNHqrHb39NbOA5Ja07XZTG72UkuH4fJMJdgZu/b/khgD+H8Gh0xrbslVQFbRZsWyn0Y22aG5w1m34/qZ2dDw3bFz/DnYpOg1juHkkCCuUrQmYkMvIoqq/clHxZIHAGEQMmivqAWWA5QTQ/QplpvFxQIzQXIwkIoBK4jkFDTGEbrivGp14tKa8OIHhAf4hVPmGnac7POPjh+miwi0S6uP94tcGxW/v/imHUd14U4zmxKaeNQ0I8WPjnEjJlgQ+QJaoySsSYtiTOb/VrNqRLzAWn/FiDPZO0CtZ9o5TPnNhskENLOZCUNeohGPEBDE0waXBmg2Pf92Ft40tfwgqrv/W/ZQYd1W5XtF5wtFa1THHDHkWfMBxcJ4dLy9Sv8Myf0zJQITuvOaa95vFAdMXgX8J+SVxffOa/MZaYd3tgUgzWoOrcRX8P2yrfurmGbLEVw+6X49B2EJjJE1AI/cz7HQfQTDI/gKAVvXmp8Lf7HtwgAyZ2NJyyn43ulPE=
   skip_cleanup: true
