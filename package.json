@@ -1,0 +1,28 @@
+{
+  "name": "travis-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build",
+    "dist": "gulp build:dist",
+    "clean": "gulp clean"
+  },
+  "author": "Thomas van Dam",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@meisterplayer/meisterplayer": "^5.0.2",
+    "@meisterplayer/plugin-basemedia": "^5.0.2",
+    "@meisterplayer/plugin-html5player": "^5.2.0",
+    "@meisterplayer/plugin-standardui": "^5.2.0"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2017": "^6.24.1",
+    "gulp": "^3.9.1",
+    "meister-gulp-webpack-tasks": "^1.0.9",
+    "meister-js-dev": "^3.1.0",
+    "yargs": "^8.0.1"
+  }
+}
