@@ -1,3 +1,13 @@
+<a name="2.1.0"></a>
+# [5.2.0](https://github.com/meisterplayer/ui-standardui/compare/v5.1.0...v5.2.0) (2017-05-29)
+
+
+### Features
+
+* **Travis:** Get correct values from environment variables ([b0a70de](https://github.com/meisterplayer/ui-standardui/commit/b0a70de))
+
+
+
 <a name="5.2.0"></a>
 # [5.2.0](https://github.com/meisterplayer/ui-standardui/compare/v5.1.0...v5.2.0) (2017-05-29)
 
